@@ -32,6 +32,8 @@ def deluxe_curfew_checker(time)
  if time == 11
    return "Time to apparate!"
  end
+ if time == 12
+   return 
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
