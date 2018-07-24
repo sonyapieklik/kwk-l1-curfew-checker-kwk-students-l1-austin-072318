@@ -2,7 +2,7 @@ def simple_curfew_checker(time)
   if time == 11
     return "You're in trouble!"
   end
-  elsif time == 12
+  if time == 12
     return "You're in trouble!"
   end
   else
