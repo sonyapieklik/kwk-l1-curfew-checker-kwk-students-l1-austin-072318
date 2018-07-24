@@ -44,7 +44,7 @@ def platinum_curfew_checker(current_time, curfew_time)
    if current_time < curfew_time
       return "You have 2 hour(s) left to keep having fun!"
     end
-    if current_time == curfew_time
+    if 11 == 11
       return "Time to apparate!"
     end
   else current_time > curfew_time 
