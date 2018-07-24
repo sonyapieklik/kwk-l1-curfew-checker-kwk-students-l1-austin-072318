@@ -7,8 +7,6 @@ def simple_curfew_checker(time)
   end
   else
     return nil
-  end
-end
 
 def curfew_checker(time)
  if time == 12
