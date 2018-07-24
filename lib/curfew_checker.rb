@@ -33,14 +33,14 @@ def deluxe_curfew_checker(time)
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
-   if time < curfew
-      hour = curfew - time 
+   if current_time < curfew_time
+      hour = curfew_time - current_time 
       return "You have #{hour} hour(s) left to keep having fun!"
     end
-    if time == curfew
+    if current_time == curfew_time
       return "Time to apparate!"
     end
-  else time > curfew 
+  else current_time > curfew_time 
     return "You're in trouble! Better get back to Hogwarts quick!"
 end
 end
