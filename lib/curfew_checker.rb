@@ -15,7 +15,6 @@ def curfew_checker(time)
   end
   else time == 9
     return "Keep having fun!"
-  end
 end
 
 def complex_curfew_checker(time)
@@ -27,7 +26,6 @@ def complex_curfew_checker(time)
   end
   else time == 9
     return "Keep having fun!"
-  end
 end
 
 def deluxe_curfew_checker(time)
@@ -44,5 +42,4 @@ def platinum_curfew_checker(current_time, curfew_time)
     end
   else time > curfew 
     return "You're in trouble! Better get back to Hogwarts quick!"
-  end
 end
