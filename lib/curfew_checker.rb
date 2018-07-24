@@ -21,7 +21,7 @@ def complex_curfew_checker(time)
   if time == 12
     return "You're in trouble!"
   end
-  elsif time == 11
+  if time == 11
     return "Time to apparate!"
   end
   else time == 9
