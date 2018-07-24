@@ -1,9 +1,9 @@
 def simple_curfew_checker(time)
   if time == 11
-    return "You're in trouble!"
+    return "You're in trouble!Better get home quick!"
   end
   if time == 12
-    return "You're in trouble!"
+    return "You're in trouble! Better get home quick!"
   end
   else
     return nil
@@ -11,7 +11,7 @@ def simple_curfew_checker(time)
 
 def curfew_checker(time)
  if time == 12
-    return "You're in trouble!"
+    return "You're in trouble! Better get home quick!"
   end
   else time == 9
     return "Keep having fun!"
@@ -19,13 +19,13 @@ end
 
 def complex_curfew_checker(time)
   if time == 12
-    return "You're in trouble!"
+    return "You're in trouble!Better get home quick!"
   end
   if time == 11
-    return "Time to apparate!"
+    return "Time to apparate!Better get home quick!"
   end
   if time == 9
-    return "Keep having fun!"
+    return "Keep having fun!Better get home quick!"
 end
 
 def deluxe_curfew_checker(time)
